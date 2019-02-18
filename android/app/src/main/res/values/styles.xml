@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Title.Domum" parent="TextAppearance.AppCompat.Title">
+        <item name="android:colorPrimary">@color/textDark</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/raleway_bold</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Button.Domum" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:paddingTop">@dimen/normal_gap</item>
+        <item name="android:paddingBottom">@dimen/normal_gap</item>
+        <item name="android:paddingStart">@dimen/big_gap</item>
+        <item name="android:paddingEnd">@dimen/big_gap</item>
+        <item name="android:fontFamily">@font/raleway_bold</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Domum" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/textDark</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.DropDownItem.Spinner.Domum" parent="Base.Widget.AppCompat.DropDownItem.Spinner" >
+        <item name="android:spinnerItemStyle">@style/TextAppearance.AppCompat.Domum</item>
+    </style>
+
+</resources>

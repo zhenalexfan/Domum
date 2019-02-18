@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Domum</string>
+
+    <string name="room_selector_tip">Select your room</string>
+
+    <string-array name="rooms">
+        <item>Room 1</item>
+        <item>Room 2</item>
+    </string-array>
+
+    <string name="action_pay">Pay</string>
+    <string name="action_check">Check</string>
+
+    <string name="pay_success">Added 1 Token</string>
+    <string name="pay_error">Payment Failed</string>
+    <string name="pay_loading">Loading</string>
+
+    <string name="token_left">%s</string>
+    <string name="token_used">Used %d tokens</string>
+    <string name="token_used_watts">Used %.1f Watts</string>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".StartActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/normal_gap"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:clipToPadding="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/room_selector_tip"
+            android:layout_marginBottom="32dp"
+            android:layout_gravity="center_horizontal"
+            style="@style/TextAppearance.AppCompat.Title.Domum"/>
+
+        <Spinner
+            android:id="@+id/room_selector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_gap"
+            android:entries="@array/rooms"
+            android:background="@drawable/spin_background"
+            style="@style/Base.Widget.AppCompat.DropDownItem.Spinner.Domum"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/action_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/huge_gap"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorAccent"
+            android:src="@drawable/ic_arrow_forward_white_24dp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
