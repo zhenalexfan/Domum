@@ -42,4 +42,4 @@ We right now want to expand to other utilities than electricity, and then eventu
 * [Kaushal Saraf](https://github.com/Kaushalop)
 * [Ling Ye](https://github.com/YeLing7)
 * [Wei Wang](https://github.com/tianshanghong)
-* [Zexing Jiang]()
+* [Zexing Jiang](https://github.com/eligah)
