@@ -40,6 +40,6 @@ We right now want to expand to other utilities than electricity, and then eventu
 
 * [Alex Fan](https://github.com/alexfanchina)
 * [Kaushal Saraf](https://github.com/Kaushalop)
-* [Ling Ye]()
-* [Wei Wang]()
+* [Ling Ye](https://github.com/YeLing7)
+* [Wei Wang](https://github.com/tianshanghong)
 * [Zexing Jiang]()
