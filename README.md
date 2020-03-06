@@ -2,7 +2,7 @@
 
 *Enables smarter lives for apartments*
 
-Domum is an IOTA-conneted IoT (Internet of Things) system that helps shared appartment residents to fairly and trustlessly pay for their utilities. **[Domum won First Place in Blockathon@USC 2019.](https://devpost.com/software/domum-c83puo)**
+Domum is an IOTA-connected IoT (Internet of Things) system that helps shared apartment residents to fairly and trustlessly pay for their utilities. **[Domum won First Place in Blockathon@USC 2019.](https://devpost.com/software/domum-c83puo)**
 
 ![Devices, Server and Android Client for Domum](img/devices.jpg)
 
